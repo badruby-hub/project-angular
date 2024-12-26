@@ -1,1 +1,20 @@
+
 <p>main works!</p>
+<div class="flex">
+    <div class="block">
+<div [class]="{round:true, green:condition}"></div>
+<div [class]="['round',condition ? '': 'red']"></div>
+
+</div>
+<div class="stolb"></div>
+<button (click)="toggleCondition()">{{condition ? 'иди':'жди'}}</button>
+<div class="stolb"></div>
+<div class="footer"></div>
+</div>
+<div>
+<div [style.borderRadius.%]="b" class="sun"></div>
+<button (click)="increaseP()">+</button>
+
+<button (click)="increaseM()">-</button>
+
+</div>

@@ -1,3 +1,8 @@
 .angular-logo{
     width: 100px;
 }
+
+.main-contant{
+    display: flex;
+    gap: 5em;
+}

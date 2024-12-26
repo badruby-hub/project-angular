@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-
+  b = 0;
+  increaseP(){
+    this.b += 5;  
+  }
+  increaseM(){
+    this.b -= 5;  
+  }
+condition = true; 
+toggleCondition(){
+  this.condition = !this.condition
+}
 }
